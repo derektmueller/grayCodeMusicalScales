@@ -57,7 +57,7 @@ buildTape ($('#tape2'));
 
 var scaleNum = 0;
 var noteNum = 0;
-var bandHeight = $('.band').first ().height () + 14;
+var bandHeight = $('.band').first ().height () + 10;
 var tapeOrder = true;
 var tape$ = $('#tape');
 var tape2$ = $('#tape2');

@@ -1,5 +1,5 @@
 
-var n = 8;
+var n = 7;
 
 // generate gray code
 function grayCode (n) {
@@ -20,6 +20,7 @@ for (var i in code) {
     scales.push (code[i].split ('').map (function (bit, i) { 
         return noteMap[i] + (bit === '1' ? '#' : '');
     }));
+    scales[scales.length - 1].push (scales[scales.length - 1][0]);
 }
 
 // build scales tape

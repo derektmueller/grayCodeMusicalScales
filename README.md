@@ -1,4 +1,1 @@
-
-https://www.derekmueller.info/views/grayCodeMusicalScales
-
-
+https://derekmueller.info/views/grayCodeScales.html
